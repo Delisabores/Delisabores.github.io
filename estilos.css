@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 20px;
+    font-family: cursive ; 
+    font-weight: bold;
+}
+
+h2{
+    font: bold;
+    font-size: 20px;
+    font-family:cursive ;
+}
+nav{
+    font-family: cursive;
+}
+header, section, aside, article hgroup{
+    display: block;
+}
+body{
+    text-align: center;
+    background:#e8fdfd;
+}
+.cabecera{
+    background: #ffffff;
+    border: 1px solid #999999;
+    padding: 20px;
+    color: #000000;
+}
+.cabecera h1 {
+    text-align: CENTER;
+}
+.cabecera image{
+    width: 1px;
+    height: 1px;
+    border-style: none;
+    
+}
+.menu{
+    background: rgb(27, 27, 27);
+    padding: 5px 15px;
+    text-align: CENTER;
+}
+.menu li{
+    list-style: none;
+    padding: 20px;
+    font:bold 14px verdana;
+    display: inline-block;
+    font-family: cursive;
+}
+.seccion{
+    margin: 20px;
+    width: 1260px;
+    float: left;
+    padding-left: 20px;
+}
+article{
+    background: #f8f8f8;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+article time {
+    color: rgb(184, 13, 13);
+}
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+.columna{
+    margin-top: 20px;
+    width: 300px;
+    float: right;
+    padding-right: 25px;
+
+}
+.columna blockquote {
+    border: 1px solid black;
+    padding: 40px;
+    background: #fff7ec;
+    margin-bottom: 40px;
+}
+.pie{
+    clear: both;
+    padding: 20px;
+    background: #b2bec3;
+}
+img{
+    display: block;
+    margin: 20px auto;
+    border-style: solid;
+    border-color: #2f3542;
+    border-width: 3px;
+    
+}
+.seccion li {
+    text-align: left;
+    margin-left: 15px;
+    font-family: cursive;
+}
+p{
+    text-align: justify;
+    line-height: 23px;
+}
+div{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+h4{
+    text-align: center;
+    font-size: 15px;
+}
+p{
+    font-family:cursive;
+    margin-top: 10px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-family: cursive;
+}
