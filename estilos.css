@@ -51,7 +51,7 @@ body{
     display: inline-block;
     font-family: cursive;
 }
-.link::after{
+.index.html .pagina2.html .pagina3.html .pagina4.html .pagina6.html::after{
     content: "";
     width: 0;
     height: 4px;
@@ -62,7 +62,7 @@ body{
     transition: all .5s;
     will-change: width;
 }
-.link:hover:after{
+.index.html .pagina2.html .pagina3.html .pagina4.html .pagina6.html:hover:after{
     width: 100%;
     right: 0;
 
