@@ -42,6 +42,7 @@ body{
     background: rgb(27, 27, 27);
     padding: 5px 15px;
     text-align: CENTER;
+    margin-top: 100px;
 }
 
 .menu li{
@@ -51,18 +52,18 @@ body{
     display: inline-block;
     font-family: cursive;
 }
-.index.html .pagina2.html .pagina3.html .pagina4.html .pagina6.html::after{
+.a::after{ 
     content: "";
     width: 0;
     height: 4px;
-    background-color: #ffffff;
+    background-color: #c33a3a;
     position: absolute;
     bottom: 0;
     right: 50%;
     transition: all .5s;
     will-change: width;
 }
-.index.html .pagina2.html .pagina3.html .pagina4.html .pagina6.html:hover:after{
+.a::after{
     width: 100%;
     right: 0;
 
