@@ -42,7 +42,6 @@ body{
     background: rgb(27, 27, 27);
     padding: 10px 15px;
     text-align: CENTER;
-    margin-top: 100px;
 }
 
 .menu li{
@@ -52,7 +51,13 @@ body{
     display: inline-block;
     font-family: cursive;
 }
-.list_item::after{ 
+.link{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    position: relative;
+}
+.link:after{
     content: "";
     width: 0;
     height: 4px;
@@ -63,10 +68,9 @@ body{
     transition: all .5s;
     will-change: width;
 }
-.list_item::after{
+.link:hover:after{
     width: 100%;
     right: 0;
-
 }
 .seccion{
     margin: 20px;
